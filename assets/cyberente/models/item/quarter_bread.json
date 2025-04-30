@@ -1,0 +1,7 @@
+{
+    "parent": "item/generic",
+    "textures": {
+      "layer0": "cyberente:item/quarter_bread"
+    }
+  }
+  

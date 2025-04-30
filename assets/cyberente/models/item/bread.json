@@ -1,0 +1,14 @@
+{
+    "parent": "item/generic",
+    "textures": {
+      "layer0": "cyberente:item/bread"
+    },
+    "overrides": [
+      { "predicate": { "custom_model_data": 1001 }, "model": "item/half_bread" },
+      { "predicate": { "custom_model_data": 1002 }, "model": "item/quarter_bread" },
+      { "predicate": { "custom_model_data": 1003 }, "model": "item/rett" },
+      { "predicate": { "custom_model_data": 1004 }, "model": "item/drill" },
+      { "predicate": { "custom_model_data": 1005 }, "model": "item/bire" }
+    ]
+  }
+  
