@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 46,
-    "description": "§3Cyber§bEnte§aPack"
-  }
+    "pack": {
+        "description": "§3Cyber§bEnte §aPack",
+        "pack_format": 61
+    }
 }

@@ -1,7 +1,0 @@
-{
-    "parent": "item/generic",
-    "textures": {
-      "layer0": "cyberente:item/custom_bire"
-    }
-  }
-  

@@ -1,7 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-      "layer0": "cyberente:item/custom_rett"
+        "layer0": "cyberente:item/rett"
     }
-  }
-  
+}
