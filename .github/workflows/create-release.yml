@@ -19,7 +19,7 @@ jobs:
                   cd java && zip -r ../minecraft_java.zip . -x ".*" && cd ..
                   cd bedrock && zip -r ../minecraft_bedrock.zip . -x ".*" && cd ..
 
-            - name: Rename Zip files
+            - name: Rename Zips
               run: |
                   mv minecraft_java.zip CyberEnte-ResourcePack.zip
                   mv minecraft_bedrock.zip CyberEnte-ResourcePack.mcpack
