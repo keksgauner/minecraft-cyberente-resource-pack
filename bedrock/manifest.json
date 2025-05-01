@@ -1,11 +1,12 @@
 {
-    "format_version": 1,
+    "format_version": 2,
     "header": {
         "description": "§3Cyber§bEnte §a- §bResource Pack",
         "name": "CyberEnte-ResourcePack",
         "platform_locked": false,
         "uuid": "785e241f-70b9-4d85-b161-f39af1950dbe",
-        "version": [0, 0, 1]
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 18, 3]
     },
     "modules": [
         {

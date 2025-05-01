@@ -21,16 +21,16 @@ jobs:
 
             - name: Rename Zips
               run: |
-                  mv minecraft_java.zip CyberEnte-ResourcePack.zip
-                  mv minecraft_bedrock.zip CyberEnte-ResourcePack.mcpack
+                  mv minecraft_java.zip CyberEnte-ResourcePack-Java.zip
+                  mv minecraft_bedrock.zip CyberEnte-ResourcePack-Bedrock.mcpack
 
             - name: Archive Release Artifacts
               uses: actions/upload-artifact@v4
               with:
                   name: minecraft_packs
                   path: |
-                      CyberEnte-ResourcePack.zip
-                      CyberEnte-ResourcePack.mcpack
+                      CyberEnte-ResourcePack-Java.zip
+                      CyberEnte-ResourcePack-Bedrock.mcpack
 
     release:
         needs: build
@@ -53,8 +53,8 @@ jobs:
                   draft: false
                   prerelease: false
                   files: |
-                      packs/CyberEnte-ResourcePack.zip
-                      packs/CyberEnte-ResourcePack.mcpack
+                      packs/CyberEnte-ResourcePack-Java.zip
+                      packs/CyberEnte-ResourcePack-Bedrock.mcpack
                   body: |
                       This is an automatically generated release.
 
