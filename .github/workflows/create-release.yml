@@ -16,8 +16,8 @@ jobs:
 
             - name: Create Zip file
               run: |
-                  zip -r minecraft_java.zip java/* --exclude=.*
-                  zip -r minecraft_bedrock.zip bedrock/* --exclude=.*
+                  cd java && zip -r ../minecraft_java.zip . -x ".*" && cd ..
+                  cd bedrock && zip -r ../minecraft_bedrock.zip . -x ".*" && cd ..
 
             - name: Rename Zip files
               run: |
