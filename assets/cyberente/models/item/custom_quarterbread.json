@@ -1,7 +1,7 @@
 {
     "parent": "item/generic",
     "textures": {
-      "layer0": "cyberente:item/bire"
+      "layer0": "cyberente:item/custom_quarterbread"
     }
   }
   
