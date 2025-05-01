@@ -16,17 +16,21 @@ jobs:
 
             - name: Create Zip file
               run: |
-                  zip -r minecraft_assets.zip . --exclude=.* --exclude=minecraft_assets.zip
+                  zip -r minecraft_java.zip java --exclude=.*
+                  zip -r minecraft_bedrock.zip java --exclude=.*
 
-            - name: Rename ZIP with tag name
+            - name: Rename Zip files
               run: |
-                  mv minecraft_assets.zip CyberEnte-ResourcePack.zip
+                  mv minecraft_java.zip CyberEnte-ResourcePack.zip
+                  mv minecraft_bedrock.zip CyberEnte-ResourcePack.mcpack
 
             - name: Archive Release Artifacts
               uses: actions/upload-artifact@v4
               with:
-                  name: minecraft_assets
-                  path: CyberEnte-ResourcePack.zip
+                  name: minecraft_packs
+                  path: |
+                      CyberEnte-ResourcePack.zip
+                      CyberEnte-ResourcePack.mcpack
 
     release:
         needs: build
@@ -38,8 +42,8 @@ jobs:
             - name: Download Release Artifacts
               uses: actions/download-artifact@v4
               with:
-                  name: minecraft_assets
-                  path: assets
+                  name: minecraft_packs
+                  path: packs
 
             - name: Create Release
               uses: softprops/action-gh-release@v2
@@ -48,7 +52,9 @@ jobs:
                   name: Release v${{ github.ref_name }}
                   draft: false
                   prerelease: false
-                  files: assets/CyberEnte-ResourcePack.zip
+                  files: |
+                      packs/CyberEnte-ResourcePack.zip
+                      packs/CyberEnte-ResourcePack.mcpack
                   body: |
                       This is an automatically generated release.
 
