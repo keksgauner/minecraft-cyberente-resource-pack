@@ -11,3 +11,19 @@
 
 -   🐤 [@CyberEnte](https://www.github.com/cyberente)
 -   🍪 [@KeksGauner](https://www.github.com/keksgauner)
+
+---
+
+Perfekt! Hier ist die minimalistische, klare Version mit allem drin:
+
+---
+
+### 📥 Download
+
+[CyberEnte-ResourcePack.zip herunterladen](https://github.com/keksgauner/minecraft-cyberente-resource-pack/releases/latest/download/CyberEnte-ResourcePack.zip)
+
+### 📂 Installation (Java Edition)
+
+1. Datei **nicht entpacken**
+2. In `%appdata%\.minecraft\resourcepacks` verschieben
+3. In Minecraft unter **Optionen → Ressourcenpakete** aktivieren ✅
