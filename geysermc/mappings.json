@@ -1,7 +1,20 @@
 {
-    "cyberente:half_bread": {
-        "bedrock_identifier": "cyberente:half_bread",
-        "bedrock_data": 0,
-        "is_edible": true
+    "format_version": "1",
+    "items": {
+      "minecraft:bread": [
+        {
+          "name": "gmdl_1bd15a5",
+          "allow_offhand": true,
+          "icon": "gmdl_1bd15a5",
+          "custom_model_data": 1
+        },
+        {
+          "name": "gmdl_c5fbc08",
+          "allow_offhand": true,
+          "icon": "gmdl_c5fbc08",
+          "custom_model_data": 2
+        }
+      ]
     }
-}
+  }
+  
