@@ -20,7 +20,7 @@
 * 📁 **`bedrock/`** – Texturenpack für **Minecraft Bedrock Edition**
 * 📁 **`geysermc/`** – Mappings und Anpassungen für **GeyserMC**
 * 📁 **`images/`** – Sonstige Bilder und Vorschau-Screenshots
-* 📁 **`java/`** – Texturenpack für **Minecraft Java**
+* 📁 **`java/`** – Texturenpack für **Minecraft Java Edition**
 
 ---
 
