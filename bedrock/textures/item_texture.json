@@ -1,9 +1,0 @@
-{
-    "resource_pack_name": "CyberEnte-ResourcePack",
-    "texture_name": "atlas.items",
-    "texture_data": {
-        "cyberente:half_bread": {
-            "textures": "textures/items/half_bread"
-        }
-    }
-}
