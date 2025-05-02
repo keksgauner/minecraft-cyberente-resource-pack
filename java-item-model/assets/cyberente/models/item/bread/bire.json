@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "cyberente:item/bire"
+        "layer0": "cyberente:item/bread/bire"
     }
 }
