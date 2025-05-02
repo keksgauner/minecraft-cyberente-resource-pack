@@ -20,7 +20,7 @@
 * 📁 **`bedrock/`** – Texturenpack für **Minecraft Bedrock Edition**
 * 📁 **`geysermc/`** – Mappings und Anpassungen für **GeyserMC**
 * 📁 **`images/`** – Sonstige Bilder und Vorschau-Screenshots
-* 📁 **`java-item-model/`** – Java-Texturenpack mit **neuen Item-Modeln**
+* 📁 **`java-item-model/`** – Java-Texturenpack mit **neuen `Item-Modeln`-System**
 * 📁 **`java/`** – Java-Texturenpack mit **klassischem `CustomModelData`-System**
 
 ---
