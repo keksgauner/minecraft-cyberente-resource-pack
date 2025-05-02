@@ -20,8 +20,8 @@ Perfekt! Hier ist die minimalistische, klare Version mit allem drin:
 
 ### 📥 Download (Java Edition)
 
-[CyberEnte-ResourcePack.zip herunterladen](https://github.com/keksgauner/minecraft-cyberente-resource-pack/releases/latest/download/CyberEnte-ResourcePack.zip) \
-`https://github.com/keksgauner/minecraft-cyberente-resource-pack/releases/latest/download/CyberEnte-ResourcePack.zip`
+[CyberEnte-ResourcePack.zip herunterladen](https://github.com/keksgauner/minecraft-cyberente-resource-pack/releases/latest/download/CyberEnte-ResourcePack-Java.zip) \
+`https://github.com/keksgauner/minecraft-cyberente-resource-pack/releases/latest/download/CyberEnte-ResourcePack-Java.zip`
 
 ### 📂 Installation (Java Edition)
 
