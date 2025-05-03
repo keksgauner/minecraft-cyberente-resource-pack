@@ -8,10 +8,10 @@
                 "enchanted": "entity_alphatest_one_sided"
             },
             "textures": {
-                "default": "textures/cyberente/item/quarter_bread",
+                "default": "textures/cyberente/item/bread/quarter_bread",
                 "enchanted": "textures/misc/enchanted_item_glint"
             },
-            "geometry": { "default": "geometry.geyser_custom.geo_0fd3ecd" },
+            "geometry": { "default": "geometry.geyser_custom.geo_da4be42" },
             "scripts": {
                 "pre_animation": [
                     "v.main_hand = c.item_slot == 'main_hand';",
@@ -36,11 +36,11 @@
                 ]
             },
             "animations": {
-                "thirdperson_main_hand": "animation.geyser_custom.geo_0fd3ecd.thirdperson_main_hand",
-                "thirdperson_off_hand": "animation.geyser_custom.geo_0fd3ecd.thirdperson_off_hand",
-                "thirdperson_head": "animation.geyser_custom.geo_0fd3ecd.head",
-                "firstperson_main_hand": "animation.geyser_custom.geo_0fd3ecd.firstperson_main_hand",
-                "firstperson_off_hand": "animation.geyser_custom.geo_0fd3ecd.firstperson_off_hand",
+                "thirdperson_main_hand": "animation.geyser_custom.geo_da4be42.thirdperson_main_hand",
+                "thirdperson_off_hand": "animation.geyser_custom.geo_da4be42.thirdperson_off_hand",
+                "thirdperson_head": "animation.geyser_custom.geo_da4be42.head",
+                "firstperson_main_hand": "animation.geyser_custom.geo_da4be42.firstperson_main_hand",
+                "firstperson_off_hand": "animation.geyser_custom.geo_da4be42.firstperson_off_hand",
                 "firstperson_head": "animation.geyser_custom.disable"
             },
             "render_controllers": ["controller.render.item_default"]

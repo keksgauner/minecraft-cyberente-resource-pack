@@ -1,7 +1,7 @@
 {
     "format_version": "1.8.0",
     "animations": {
-        "animation.geyser_custom.geo_0fd3ecd.thirdperson_main_hand": {
+        "animation.geyser_custom.geo_97a4c44.thirdperson_main_hand": {
             "loop": true,
             "bones": {
                 "geyser_custom_x": {
@@ -17,7 +17,7 @@
                 }
             }
         },
-        "animation.geyser_custom.geo_0fd3ecd.thirdperson_off_hand": {
+        "animation.geyser_custom.geo_97a4c44.thirdperson_off_hand": {
             "loop": true,
             "bones": {
                 "geyser_custom": {
@@ -26,7 +26,7 @@
                 }
             }
         },
-        "animation.geyser_custom.geo_0fd3ecd.head": {
+        "animation.geyser_custom.geo_97a4c44.head": {
             "loop": true,
             "bones": {
                 "geyser_custom_x": {
@@ -39,7 +39,7 @@
                 "geyser_custom": { "position": [0, 19.9, 0] }
             }
         },
-        "animation.geyser_custom.geo_0fd3ecd.firstperson_main_hand": {
+        "animation.geyser_custom.geo_97a4c44.firstperson_main_hand": {
             "loop": true,
             "bones": {
                 "geyser_custom": {
@@ -56,7 +56,7 @@
                 "geyser_custom_z": { "rotation": [0, 0, 25] }
             }
         },
-        "animation.geyser_custom.geo_0fd3ecd.firstperson_off_hand": {
+        "animation.geyser_custom.geo_97a4c44.firstperson_off_hand": {
             "loop": true,
             "bones": {
                 "geyser_custom": {
