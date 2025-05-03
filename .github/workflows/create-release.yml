@@ -62,7 +62,7 @@ jobs:
                   files: |
                       packs/CyberEnte-ResourcePack-Java.zip
                       packs/CyberEnte-ResourcePack-Bedrock.mcpack
-                      packs/geyser_mappings.json
+                      packs/geysermc/geyser_mappings.json
                   body: |
                       This is an automatically generated release.
 
