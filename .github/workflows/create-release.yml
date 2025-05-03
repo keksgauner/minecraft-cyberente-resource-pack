@@ -31,6 +31,7 @@ jobs:
                   path: |
                       CyberEnte-ResourcePack-Java.zip
                       CyberEnte-ResourcePack-Bedrock.mcpack
+                      geysermc/geyser_mappings.json
 
     release:
         needs: build
@@ -61,6 +62,7 @@ jobs:
                   files: |
                       packs/CyberEnte-ResourcePack-Java.zip
                       packs/CyberEnte-ResourcePack-Bedrock.mcpack
+                      packs/geyser_mappings.json
                   body: |
                       This is an automatically generated release.
 
