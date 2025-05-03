@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "cyberente:item/bread/drill"
+        "model": "cyberente:item/breads/drill_bread"
     }
 }

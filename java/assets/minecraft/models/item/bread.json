@@ -6,23 +6,23 @@
     "overrides": [
         {
             "predicate": { "custom_model_data": 1 },
-            "model": "cyberente:item/bread/half_bread"
+            "model": "cyberente:item/breads/half_bread"
         },
         {
             "predicate": { "custom_model_data": 2 },
-            "model": "cyberente:item/bread/quarter_bread"
+            "model": "cyberente:item/breads/quarter_bread"
         },
         {
             "predicate": { "custom_model_data": 3 },
-            "model": "cyberente:item/bread/rett"
+            "model": "cyberente:item/breads/rett_bread"
         },
         {
             "predicate": { "custom_model_data": 4 },
-            "model": "cyberente:item/bread/drill"
+            "model": "cyberente:item/breads/drill_bread"
         },
         {
             "predicate": { "custom_model_data": 5 },
-            "model": "cyberente:item/bread/bire"
+            "model": "cyberente:item/breads/bire_bread"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "cyberente:item/custom/cola_potion"
+        "model": "cyberente:item/models/cola_potion"
     }
 }
