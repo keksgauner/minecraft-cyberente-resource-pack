@@ -1,15 +1,18 @@
 {
-    "resource_pack_name": "geyser_custom",
-    "texture_name": "atlas.items",
-    "texture_data": {
-        "gmdl_1bd15a5": {
-            "textures": "textures/cyberente/item/bread/half_bread"
-        },
-        "gmdl_c5fbc08": {
-            "textures": "textures/cyberente/item/bread/quarter_bread"
-        },
-        "gmdl_936c4f9": {
-            "textures": "textures/cyberente/item/bread/drill"
-        }
+  "resource_pack_name": "geyser_custom",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "gmdl_c5fbc08": {
+      "textures": "textures/cyberente/item/breads/quarter_bread"
+    },
+    "gmdl_1bd15a5": {
+      "textures": "textures/cyberente/item/breads/half_bread"
+    },
+    "gmdl_936c4f9": {
+      "textures": "textures/cyberente/item/breads/drill_bread"
+    },
+    "gmdl_08e172f": {
+      "textures": "cyberente:item/bedrock/cola_potion"
     }
+  }
 }
