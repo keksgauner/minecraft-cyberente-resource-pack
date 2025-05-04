@@ -2,7 +2,7 @@
     "potion": [
         {
             "custom_model_data": 1,
-            "sprite": "cyberente:item/bedrock/cola_potion"
+            "sprite": "textures/cyberente/item/bedrock/cola_potion"
         }
     ]
 }
