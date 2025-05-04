@@ -7,7 +7,7 @@
     "overrides": [
         {
             "predicate": { "custom_model_data": 1 },
-            "model": "cyberente:item/bedrock/cola_potion"
+            "model": "cyberente:item/models/cola_potion"
         }
     ]
 }
